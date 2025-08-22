@@ -1,4 +1,4 @@
-# SQL Alchemy Database Basics
+# SQL Alchemy Database Basics Project 1
 
 This repo shows the basics of interacting with a databae using sqlAlchemy and Python.
 
@@ -16,7 +16,7 @@ This repo shows the basics of interacting with a databae using sqlAlchemy and Py
 
 ## Running at command prompt
 
-`python socialMedia__.py`
+`python A_BasicsProj1.py`
 
 ## Info on DB and viewing
 
@@ -33,3 +33,25 @@ You can see all the tables using sqllite at terminal by running:
 Other option is to open socialDb.db with:
 
 https://sqlitebrowser.org/dl/
+
+# SQL Alchemy Database Basics Project 2
+
+## SQL Alchemy Crash Course - Master Databases in Python
+
+https://www.youtube.com/watch?v=529LYDgRTgQ
+
+## Run
+
+Run the .py files starting with A_BasicProj1.py like this:
+
+`python A_BasicProj1.py`
+
+## Queries:
+
+Enter sqlite3
+
+`sqlite3 mydatabase.db`
+
+### Seeing a printout of tables
+
+`PRAGMA table_info(people);`
